@@ -1,2 +1,2 @@
 # Python-Projects
- Used for displaying projects I've created or information I've learned on Python.
+ This repository will be used for projects made with python in support of Tech Academy.
