@@ -4,10 +4,10 @@
 #the information is waiting for user input.
 #parent class.
 class Player:
-    name = ' '
-    age = ' '
-    height = ' '
-    weight = ' '
+    name = input("Enter your name: ")
+    age = input("Enter your age: ")
+    clan = input("Enter your clan: ")
+    
 
 #the description and attributes of the warrior class.
 class Warrior(Player):
