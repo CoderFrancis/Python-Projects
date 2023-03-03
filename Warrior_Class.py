@@ -11,14 +11,14 @@ class Player:
 
 #the description and attributes of the warrior class.
 class Warrior(Player):
-    weapon = long_sword
-    dmg = 100
+    weapon = 'long_sword'
+    dmg = '100'
     fighting_stlye = 'Brass, loud, flashy. This character likes to fight up close and personal.'
 
 #the description and attributes of the stealth class.
 class Stealth(Player):
-    weapon = daggers
-    dmg = 10
+    weapon = 'daggers'
+    dmg = '10'
     fighting_stlye = 'Silent, discreet, concise. This character embraces the element of surprise.'
     
     
