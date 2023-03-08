@@ -4,6 +4,9 @@ from abc import ABC, abstractmethod
 
 class Polygon(ABC):
 
+    def shape(self):
+        print("We're all polygons!")
+
     @abstractmethod
     def noofsides(self):
         pass
@@ -24,7 +27,7 @@ class Hexagon(Polygon):
 
     #overriding abstract method
     def noofsides(self):
-        print("I have 4 sides")
+        print("I have 6 sides")
 
 class Quadrilateral(Polygon):
 
@@ -44,3 +47,5 @@ R.noofsides()
 
 K = Hexagon()
 K.noofsides()
+
+R.shape()
