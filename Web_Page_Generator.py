@@ -6,7 +6,7 @@ class ParentWindow(Frame):
     def __init__(self, master):
         Frame.__init__(self, master)
         self.master.title("Web Page Generator")
-        root.geometry("700x200")
+        root.geometry("400x200")
 
         label = Label(root,text="Enter custom text or click the Default HTML page button")
         label.grid(padx=(10,10), pady=(10,10))
